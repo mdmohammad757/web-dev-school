@@ -333,13 +333,13 @@ body {
   }
 
   .small-stories {
-      grid-template-columns: 1fr; /* Small stories remain in a single column */
+      grid-template-rows: 2fr; /* Small stories remain in a single column */
   }
 }
 
 @media (max-width: 576px) {
   .small-stories {
-      grid-template-columns: 1fr;
+      grid-template-rows: 2fr;
   }
 }
 
